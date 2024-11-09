@@ -1,7 +1,7 @@
 
 console.log('Welcome to Spotify');
 let songIndex = 0;
-let audioElement = new Audio('songs/1.mp3');  // Adjust the path if necessary
+let audioElement = new Audio('1.mp3');  // Adjust the path if necessary
 let masterPlay = document.getElementById('masterPlay');
 let myBar = document.getElementById('myBar');
 let gif = document.getElementById('gif');
@@ -9,13 +9,13 @@ let masterSongName = document.getElementById('songTitle'); // Add this line to r
 let songitem = Array.from(document.getElementsByClassName('songitem'));
 
 let songs = [
-    {songName: "Let Me Love You", filePath: "songs/1.mp3", coverPath: "images/song1.jpg"},
-    {songName: "Clam Down", filePath: "songs/2.mp3", coverPath: "images/song2.jpg"},
-    {songName: "Dance At Night", filePath: "songs/3.mp3", coverPath: "images/song3.jpeg"},
-    {songName: "Vampire", filePath: "songs/4.mp3", coverPath: "images/song4.jpeg"},
-    {songName: "Miracle", filePath: "songs/5.mp3", coverPath: "images/song5.jpeg"},
-    {songName: "Not One Time", filePath: "songs/6.mp3", coverPath: "images/song6.jpeg"},
-    {songName: "Dynamite", filePath: "songs/7.mp3", coverPath: "images/song7.jpeg"}
+    {songName: "Let Me Love You", filePath: "1.mp3", coverPath: "images/song1.jpg"},
+    {songName: "Clam Down", filePath: "2.mp3", coverPath: "images/song2.jpg"},
+    {songName: "Dance At Night", filePath: "3.mp3", coverPath: "images/song3.jpeg"},
+    {songName: "Vampire", filePath: "4.mp3", coverPath: "images/song4.jpeg"},
+    {songName: "Miracle", filePath: "5.mp3", coverPath: "images/song5.jpeg"},
+    {songName: "Not One Time", filePath: "6.mp3", coverPath: "images/song6.jpeg"},
+    {songName: "Dynamite", filePath: "7.mp3", coverPath: "images/song7.jpeg"}
 ];
 
 // Toggle Play/Pause
