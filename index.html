@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class = "brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li><i class="fa-solid fa-house"></i></li>
+            <li><i class="fa-solid fa-music"></i></li>
+            <form action="/search" method="GET" class="search-form">
+                <div class="input-container">
+                  <i class="fa-solid fa-magnifying-glass"></i> 
+                  <input type="text" name="query" placeholder="Search..." class="search-input" />
+                </div>
+              </form>
+              <li class="user">
+                <i class="fa-solid fa-user"></i> My Account
+                <div class="dropdown">
+                  <a href="#"><i class="fa-regular fa-id-badge"></i>Profile</a>
+                  <a href="#"><i class="fa-solid fa-gear"></i>Settings</a>
+                  <a href="#"><i class="fa-solid fa-right-from-bracket"></i>Logout</a>
+                </div>
+              </li>
+            
+        </ul>
+    </nav>
+    <!--Ashverya Singhal-->
+    <div class="container">
+        
+        <div class="songList">
+            <h1>Live the beat...</h1>
+            <div class="songcontainer">
+            <div class="songitem">
+                <img  alt="1">
+                <span class="songName">Let Me Love You</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="0" class=" far songItemPlay fa-solid fa-circle-play"></span></i></span>
+            </div>
+            <div class="songitem">
+                <img  alt="1">
+                <span class="songName">Clam Down</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="1" class=" far songItemPlay fa-solid fa-circle-play"></span></i></span>
+            </div>
+            <div class="songitem">
+                <img  alt="1">
+                <span class="songName">Let Me Love You</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="2" class="far songItemPlay fa-solid fa-circle-play"></span></i></span>
+            </div>
+            <div class="songitem">
+                <img alt="1">
+                <span class="songName">Let Me Love You</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="3" class="far songItemPlay fa-solid fa-circle-play"></span></i></span>
+            </div>
+            <div class="songitem">
+                <img  alt="1">
+                <span class="songName">Let Me Love You</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="4" class="far songItemPlay fa-solid fa-circle-play"></span></i></span>
+            </div>
+            <div class="songitem">
+                <img  alt="1">
+                <span class="songName">Let Me Love You</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="5" class="far songItemPlay fa-solid fa-circle-play"></span></i></span>
+            </div>
+            <div class="songitem">
+                <img  alt="1">
+                <span class="songName">Let Me Love You</span>
+                <span class="songlistplay"><span class="timestamp">05:34<i id="6" class="far songItemPlay fa-solid fa-circle-play"></span></i></span>
+            </div>
+        </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <div class="songinfo">
+            <img src="images/song1.jpg" width="42px" alt="" id="gif"> 
+            <span id="songTitle">Let Me Love You</span> <!-- Song name here -->
+        </div>        
+        <input type="range" name="range" id="myBar" min="0" value='0'max="100">
+        <div class="icons">
+            <i class="far fa-2x fa-solid fa-backward-step" id="previous"></i>
+            <i class="far fa-2x fa-solid fa-circle-play" id="masterPlay"></i>
+           <i class="far fa-2x fa-solid fa-forward-step" id="next"></i>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/59efa39b68.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
